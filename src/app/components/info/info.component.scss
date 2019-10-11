@@ -1,0 +1,23 @@
+.info {
+    height:75vh;
+    width:98vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    left:1vw;
+    right:1vw;
+    background-color:white;
+    z-index: 3;
+    bottom:-65vh;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.dragButton{
+    margin:auto;
+    position: relative;
+    top: 5px;
+    width: 10vw;
+    background-color: rgb(120, 120, 120);
+    height:10px;
+    border-radius: 20px;
+}
