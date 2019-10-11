@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { MapComponent } from './components/map/map.component';
 import { InfoComponent } from './components/info/info.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AccountInfoComponent } from './components/account-info/account-info.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { InfoComponent } from './components/info/info.component';
     LoginComponent,
     MapComponent,
     InfoComponent,
+    HeaderComponent,
+    AccountInfoComponent,
   ],
   imports: [
     BrowserModule,
