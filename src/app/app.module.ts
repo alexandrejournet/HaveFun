@@ -1,6 +1,7 @@
 import { AgmCoreModule } from '@agm/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { environment } from '../environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    DragDropModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA45ed6hdRqgaNg6zQKAUiYvEwtCwJxcIE'
     }),

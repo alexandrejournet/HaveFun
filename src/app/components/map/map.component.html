@@ -1,7 +1,17 @@
-<agm-map [latitude]='latitude' 
+<app-info [message]="parentMessage"></app-info>
+
+
+<agm-map 
+        [latitude]='latitude' 
         [longitude]='longitude' 
         [mapTypeId]='mapType'
-        [zoom]="15">
+        [zoom]="14"
+        (mapClick)="placeMarker($event)">
+        <agm-marker *ngFor="let marker of markers" 
+                [latitude]="marker.lat"
+                [longitude]="marker.lng"
+                [opacity]="marker.alpha"
+                [markerDraggable]="true"
+                (markerClick)="selectMarker($event)">
+        </agm-marker> 
 </agm-map>
-
-<app-info></app-info>
