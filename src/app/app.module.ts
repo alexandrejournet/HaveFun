@@ -9,6 +9,8 @@ import { MapComponent } from './components/map/map.component';
 import { InfoComponent } from './components/info/info.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AccountInfoComponent } from './components/account-info/account-info.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { AccountInfoComponent } from './components/account-info/account-info.com
     AppRoutingModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA45ed6hdRqgaNg6zQKAUiYvEwtCwJxcIE'
-    })
+    }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent],
