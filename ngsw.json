@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1570808339488,
+  "index": "https://alexandrejournet.github.io/HaveFun/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://alexandrejournet.github.io/HaveFun/favicon.ico",
+        "https://alexandrejournet.github.io/HaveFun/index.html",
+        "https://alexandrejournet.github.io/HaveFun/main-es2015.7279b00a38b927d31786.js",
+        "https://alexandrejournet.github.io/HaveFun/main-es5.7279b00a38b927d31786.js",
+        "https://alexandrejournet.github.io/HaveFun/manifest.webmanifest",
+        "https://alexandrejournet.github.io/HaveFun/polyfills-es2015.0ef207fb7b4761464817.js",
+        "https://alexandrejournet.github.io/HaveFun/polyfills-es5.2b9ce34c123ac007a8ba.js",
+        "https://alexandrejournet.github.io/HaveFun/runtime-es2015.e8a2810b3b08d6a1b6aa.js",
+        "https://alexandrejournet.github.io/HaveFun/runtime-es5.e8a2810b3b08d6a1b6aa.js",
+        "https://alexandrejournet.github.io/HaveFun/styles.194de9e8155c5a7c841b.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-128x128.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-144x144.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-152x152.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-192x192.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-384x384.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-512x512.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-72x72.png",
+        "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://alexandrejournet.github.io/HaveFun/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://alexandrejournet.github.io/HaveFun/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://alexandrejournet.github.io/HaveFun/index.html": "e52c7dca230953690c3253157acd6aeb834d9af8",
+    "https://alexandrejournet.github.io/HaveFun/main-es2015.7279b00a38b927d31786.js": "eab1e781fbf5aad851924f85e75e0bd1bdb1c406",
+    "https://alexandrejournet.github.io/HaveFun/main-es5.7279b00a38b927d31786.js": "d63adcb6e95c5de9d277976557ed8dd737e9c664",
+    "https://alexandrejournet.github.io/HaveFun/manifest.webmanifest": "da847f615319b52d47db9e866f34b4c0a3a093a3",
+    "https://alexandrejournet.github.io/HaveFun/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "https://alexandrejournet.github.io/HaveFun/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
+    "https://alexandrejournet.github.io/HaveFun/runtime-es2015.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://alexandrejournet.github.io/HaveFun/runtime-es5.e8a2810b3b08d6a1b6aa.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://alexandrejournet.github.io/HaveFun/styles.194de9e8155c5a7c841b.css": "20b7c9d9477dfe47c57f3ea5d2fceb9f379c12a8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
