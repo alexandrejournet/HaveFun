@@ -1,21 +1,40 @@
 .photo {
     width: 100vw;
+    margin-top:5vh; 
+    margin-bottom:5vh; 
 }
 
 .center{
-    width: 100px;
+    width: 150px;
     margin: auto;
     text-align: center;
 }
 
-.inputLabel{
-    width: 100px;
-    margin: auto;
-    text-align: center;
-    padding:20px;
+label {
+    margin:20px;
+    display:block;
+    width:30vw;
+}
+
+input {
+    margin:20px;
+    display:block;
+    width:100%;
+}
+
+.input{
+    border-radius: 20px;
+    border: 1px solid #2D2E2E;
+    height: 30px;
 }
 
 .profile-picture{
-    font-size:100px;
+    font-size:150px;
     margin:0;
+}
+
+.champ {
+    display: flex;
+    text-align: start;
+    align-items: center;
 }
